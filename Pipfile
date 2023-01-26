@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+notebook = "*"
+pandas = "*"
+numpy = "*"
+plotly = "*"
+streamlit = "*"
+yfinance = "*"
+prophet = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
