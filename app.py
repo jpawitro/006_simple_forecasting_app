@@ -1,5 +1,5 @@
 import streamlit as st
-from practicum import get_all_tickers, candlestick, forecasting
+from packages import get_all_tickers, candlestick, forecasting
 
 periods = {
     '1 day':'1d',
